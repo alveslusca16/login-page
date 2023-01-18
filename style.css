@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppinslight;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.form {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.form-img {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3F6;
+}
+
+.form-header {
+    padding: 10px;
+}
+
+.logo-form {
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.subtitle-logo {
+    font-size: 18px;
+    padding: 20px;
+}
+
+h3 {
+    font-family: poppinsbold;
+}
+
+.input-group {
+    padding: 20px 20px 5px 0px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label-senha{
+    margin-top: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #555555;
+    font-family: poppinsregular;
+}
+
+input{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #F1F3F6;
+    border: none;
+}
+
+.imagem-carta {
+    background-color: #FD7401; 
+    width: 45px;
+    height: 42px;
+    position: absolute;
+    margin-left: 248px;
+    margin-top: 31px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.imagem-cadeado {
+    background-color: #FD7401;
+    width: 45px;
+    height: 42px;
+    position: absolute;
+    margin-left: 248px;
+    margin-top: 51px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+input::placeholder {
+    color: #555555;
+    font-size: 14px;
+    font-family: poppinsregular;
+}
+
+.forgotpassword {
+    display: block;
+    width: 93%;
+    text-align: end;
+    
+}
+a {
+    color: #1E2772;
+    font-size: 13px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.traco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.traco-or {
+    font-size: 13px;
+    padding: 13px;
+    color: #C2C2C2;
+}
+
+hr {
+    border-color: #C2C2C2;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.login-button {
+    border-radius: 8px;
+    border: none;
+    background-color: #FD7401;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    filter: drop-shadow(0px 8px 12px rgba(253, 116, 1, 0.3));
+}
+
+.sign-up {
+    border-radius: 8px;
+    border: 1px solid #FD7401 ;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FD7401;
+}
+
+.login-button:hover, .sign-up:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
